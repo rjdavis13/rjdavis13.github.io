@@ -130,6 +130,23 @@ h6 {
     margin-bottom: 0;
 }
 
+.bannertop {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../img/JTeaGardenKoiBanner.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.bannertop h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+
+.bannertop ul {
+    margin-bottom: 0;
+}
+
 .banner-social-buttons {
     float: right;
     margin-top: 0;
@@ -149,6 +166,12 @@ h6 {
         font-size: 3em;
     }
 
+	ul.bannertop h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+	
     ul.banner-social-buttons > li {
         display: block;
         margin-bottom: 20px;
